@@ -12,13 +12,13 @@ http-request 是封装 `axios` 的网络请求库. 使用 **取消请求** 功�
 npm:
 
 ```shell
-$ npm install https://github.com/iDerekLi/http-request.git --save
+$ npm install git+https://github.com/iDerekLi/http-request.git --save
 ```
 
 Yarn:
 
 ```shell
-$ yarn add https://github.com/iDerekLi/http-request.git
+$ yarn add git+https://github.com/iDerekLi/http-request.git
 ```
  
 ## 示例
