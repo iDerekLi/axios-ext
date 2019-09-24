@@ -3,9 +3,20 @@
   "version": "1.0.0",
   "description": "`http-request` 是封装 `axios` 的网络请求库. 使用 **取消请求** 功能更便捷。",
   "main": "src/http-request.js",
-  "repository": "git@github.com:iDerekLi/http.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iDerekLi/http-request.git"
+  },
+  "keywords": [
+    "axios",
+    "http-request"
+  ],
   "author": "DerekLi, (https://github.com/iDerekLi)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iDerekLi/http-request/issues"
+  },
+  "homepage": "https://github.com/iDerekLi/http-request#readme",
   "dependencies": {
     "axios": "^0.19.0"
   }
