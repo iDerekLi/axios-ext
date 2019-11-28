@@ -1,0 +1,81 @@
+{
+  "name": "axios-ext",
+  "version": "1.0.0-beta",
+  "description": "`axios-ext` 包含 axios API 中未有的功能。例如：便捷的取消请求、批量取消请求。",
+  "main": "lib/axios-ext.js",
+  "module": "es/axios-ext.js",
+  "files": [
+    "es",
+    "lib",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "bootstrap": "yarn || npm i",
+    "dev": "node docs/server/index.js & webpack-dev-server --config build/webpack.site.dev.js",
+    "build:lib": "node build/build-lib.js",
+    "webpack.pkg": "cross-env NODE_ENV=production webpack --color --config build/webpack.pkg.js",
+    "lint": "eslint --ext .js,.vue --ignore-path .eslintignore . --fix",
+    "release": "sh build/release.sh"
+  },
+  "lint-staged": {
+    "*.{js}": "eslint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iDerekLi/axios-ext.git"
+  },
+  "keywords": [
+    "axios",
+    "xhr",
+    "http",
+    "ajax",
+    "promise"
+  ],
+  "author": "DerekLi, (https://github.com/iDerekLi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iDerekLi/axios-ext/issues"
+  },
+  "homepage": "https://github.com/iDerekLi/axios-ext#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^6.0.3",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^6.0.1",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "fs-extra": "^8.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^3.1.0",
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0",
+    "lint-staged": "^9.4.3",
+    "prettier": "^1.19.1",
+    "shelljs": "^0.8.3",
+    "signale": "^1.4.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.2",
+    "vue-router": "^3.1.3",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2",
+    "webpackbar": "^4.0.0"
+  }
+}
