@@ -1,6 +1,6 @@
 {
   "name": "axios-ext",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0",
   "description": "`axios-ext` 包含 axios API 中未有的功能。例如：便捷的取消请求、批量取消请求。",
   "main": "lib/index.js",
   "module": "es/index.js",
