@@ -1,5 +1,12 @@
 # axios-ext
 
+[![Build Status](https://travis-ci.org/iDerekLi/axios-ext.svg?branch=master)](https://github.com/iderekli/axios-ext)
+[![npm version](https://img.shields.io/npm/v/axios-ext.svg?style=flat-square)](https://www.npmjs.com/package/axios-ext)
+[![npm downloads](https://img.shields.io/npm/dt/axios-ext.svg?style=flat-square)](https://www.npmjs.com/package/axios-ext)
+[![npm downloads](https://img.shields.io/npm/dm/axios-ext.svg?style=flat-square)](https://www.npmjs.com/package/axios-ext)
+[![JS Gzip Size](https://img.badgesize.io/https://unpkg.com/axios-ext/lib/axios-ext.min.js?compression=gzip&style=flat-square&label=JS%20gzip%20size)](https://github.com/iderekli/axios-ext)
+[![npm license](https://img.shields.io/npm/l/axios-ext.svg?style=flat-square)](https://github.com/iderekli/axios-ext)
+
 `axios-ext` 包含 axios API 中未有的功能。例如：便捷的取消请求、批量取消请求。
 
 ## 特性
