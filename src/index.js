@@ -119,6 +119,10 @@ class AxiosExt {
   };
 });
 
-const axiosExt = new AxiosExt();
+function createInstance(options) {
+  return new AxiosExt(options);
+}
+
+const axiosExt = createInstance();
 
 export default axiosExt;

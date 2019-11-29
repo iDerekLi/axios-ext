@@ -1,9 +1,9 @@
 {
   "name": "axios-ext",
-  "version": "1.0.0-beta",
+  "version": "1.0.0-beta.2",
   "description": "`axios-ext` 包含 axios API 中未有的功能。例如：便捷的取消请求、批量取消请求。",
-  "main": "lib/axios-ext.js",
-  "module": "es/axios-ext.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "files": [
     "es",
     "lib",
@@ -45,11 +45,15 @@
   },
   "homepage": "https://github.com/iDerekLi/axios-ext#readme",
   "dependencies": {
+    "@babel/runtime": "^7.7.4",
     "axios": "^0.19.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.7.4",
     "@babel/plugin-syntax-dynamic-import": "^7.7.4",
+    "@babel/plugin-transform-object-assign": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",

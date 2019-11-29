@@ -18,7 +18,7 @@ https://github.com/iDerekLi/axios-ext
 module.exports = merge(config, {
   mode: 'production',
   entry: {
-    'axios-ext': './es/axios-ext.js',
+    'axios-ext': './es/index.js',
   },
   output: {
     path: path.join(__dirname, '../lib'),
