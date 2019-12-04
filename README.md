@@ -28,6 +28,12 @@ Yarn:
 $ yarn add axios-ext
 ```
 
+安装 [axios](https://www.npmjs.com/package/axios) 依赖
+
+```shell
+$ npm install axios --save
+```
+
 ## 快速入门
 
 取消请求：
