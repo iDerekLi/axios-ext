@@ -12,8 +12,8 @@ then
   VERSION=$VERSION npm run build:lib
 
   # commit
-  git tag v$VERSION
   git add .
+  git tag v$VERSION
   git commit -am "build: release $VERSION"
 
   # publish

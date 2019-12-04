@@ -30,7 +30,7 @@ module.exports = merge(config, {
     extensions: ['.vue'],
     alias: {
       vue$: 'vue/dist/vue.js',
-      'axios-ext$': path.join(__dirname, '../src/axios-ext.js'),
+      'axios-ext$': path.join(__dirname, '../src/index.js'),
     },
   },
   module: {

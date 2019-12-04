@@ -29,7 +29,14 @@ module.exports = merge(config, {
     // https://github.com/webpack/webpack/issues/6522
     globalObject: "typeof self !== 'undefined' ? self : this",
   },
-  externals: {},
+  externals: {
+    axios: {
+      root: 'axios',
+      commonjs: 'axios',
+      commonjs2: 'axios',
+      amd: 'axios',
+    },
+  },
   performance: false,
   optimization: {
     minimize: isMinify,
